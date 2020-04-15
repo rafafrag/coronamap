@@ -61,7 +61,15 @@ const IndexPage = () => {
         let updatedFormatted;
         let casesString;
 
-        const { country, updated, cases, deaths, recovered } = properties;
+        const {
+          country,
+          updated,
+          cases,
+          active,
+          deaths,
+          recovered,
+          todayCases,
+        } = properties;
 
         casesString = `${cases}`;
 
@@ -78,9 +86,11 @@ const IndexPage = () => {
             <span class="icon-marker-tooltip">
               <h2>${country}</h2>
               <ul>
-                <li><strong>Confirmed:</strong> ${cases}</li>
+                <li><strong>Total cases:</strong> ${cases}</li>
+                <li><strong>Active cases:</strong> ${active}</li>
                 <li><strong>Deaths:</strong> ${deaths}</li>
                 <li><strong>Recovered:</strong> ${recovered}</li>
+                <li><strong>Today cases:</strong> ${todayCases}</li>
                 <li><strong>Last Update:</strong> ${updatedFormatted}</li>
               </ul>
             </span>

@@ -52,6 +52,14 @@
   }
 }
 
+@media (hover: hover) and (pointer: fine) {
+  &:hover {
+    .icon-marker-tooltip {
+      display: block;
+    }
+  }
+}
+
 .icon-marker-tooltip {
   display: none;
   position: absolute;

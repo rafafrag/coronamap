@@ -124,9 +124,7 @@ const IndexPage = () => {
       </Helmet>
 
       <Map {...mapSettings} />
-      {/* mapbox://styles/rafajs/ck91cxqaa05zi1is4pydf8heg
-      http://api.mapbox.com/styles/v1/rafajs/k91cxqaa05zi1is4pydf8heg/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoicmFmYWpzIiwiYSI6ImNrOTF4czFiOTAwbTkzZHIxNWgwYTg4NGwifQ.54e4K-i5-1zZtlDanwGcLQ
-       */}
+
       <Container type="content" className="text-center home-start">
         <h2>Zoom In To Your Country</h2>
         <p>Click On The Red Ballon</p>

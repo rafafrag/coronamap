@@ -126,9 +126,8 @@ const IndexPage = () => {
       <Map {...mapSettings} />
 
       <Container type="content" className="text-center home-start">
-        <h2>Zoom In To Your Country</h2>
-        <p>Click On The Red Ballon</p>
-        <p className="note">Live Statistics</p>
+        <h2>Zoom In To Your Country Click On The Red Ballon</h2>
+        <p className="note">Be Safe!</p>
       </Container>
     </Layout>
   );

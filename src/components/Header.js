@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+//import { Link } from "gatsby";
 
 import Container from "components/Container";
 
@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
       <Container type="content">
-        <p>Covid-19 Map Update</p>
+        <p>Covid-19 Map Live Update</p>
         <ul>
           <a href=".">World Map</a>
           {/* <li>

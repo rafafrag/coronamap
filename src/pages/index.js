@@ -25,9 +25,8 @@ const IndexPage = () => {
     if (!map) return;
 
     let response;
-
-    try {
-      response = await axios.get("https://corona.lmao.ninja/countries");
+    https: try {
+      response = await axios.get("https://corona.lmao.ninja/v2/countries");
     } catch (e) {
       console.log(`Failed to fetch countries: ${e.message}`, e);
       return;
